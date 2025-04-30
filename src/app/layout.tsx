@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vrére Bunkley - Dialogue Facilitator & Community Engagement Specialist",
-  description: "Creating Dialogue. Creating Trust. Getting to the Heart of Matters. Building Relationships. Bringing Joy.",
+  title: "Sophia Reynolds - UX Designer & Creative Technologist",
+  description: "Creating Designs. Creating Solutions. Bringing Ideas to Life. Building Connections. Inspiring Innovation.",
 };
 
 export default function RootLayout({
