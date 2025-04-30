@@ -79,14 +79,7 @@ export default function Home() {
             <span>BUILD IMPACT</span>
           </BackgroundText>
           <ContentWrapper>
-            <h1 style={{ 
-              fontSize: '4.5rem', 
-              fontWeight: 800, 
-              marginBottom: '1rem',
-              color: 'white',
-              letterSpacing: '-0.02em',
-              lineHeight: 1.1
-            }}>SOPHIA REYNOLDS, MBA, MFA</h1>
+            <Name>SOPHIA REYNOLDS, MBA, MFA</Name>
             <Title>Creating Designs. Creating Solutions. Bringing Ideas to Life. Building Connections. Inspiring Innovation.</Title>
             <Description>
               Passionate about developing intuitive user experiences and facilitating meaningful 
@@ -95,7 +88,7 @@ export default function Home() {
           </ContentWrapper>
           <ProfileImage>
             <Image
-              src="/sophia_profile.jpg"
+              src="/profile.jpg"
               alt="Sophia Reynolds"
               fill
               style={{ objectFit: 'cover' }}
@@ -294,7 +287,7 @@ export default function Home() {
         </Section>
         
         <Footer>
-          Made with open source templates, robots and soul by Nelson Foster, Co-Founder and CEO, ProKofa Solutions.
+          © 2025 By Sophia Reynolds. Made with Creativity and Code by <a href="https://www.nelsonfoster.com" target="_blank" rel="noopener noreferrer">Nelson Foster</a>
         </Footer>
       </Main>
     </ThemeProvider>
