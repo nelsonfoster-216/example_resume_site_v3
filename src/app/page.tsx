@@ -8,7 +8,6 @@ import {
   Main,
   Hero,
   ContentWrapper,
-  Name,
   Title,
   Description,
   ProfileImage,
@@ -202,8 +201,8 @@ export default function Home() {
           <SectionTitle $dark={true}>Contact</SectionTitle>
           <ContactSection $dark={true}>
             <Description className="contact-description">
-              I'm passionate about creating innovative digital experiences and fostering positive change 
-              through design and technological solutions. Let's connect!
+              I&apos;m passionate about creating innovative digital experiences and fostering positive change 
+              through design and technological solutions. Let&apos;s connect!
             </Description>
             
             <div className="contact-container">
@@ -211,7 +210,7 @@ export default function Home() {
                 {formSubmitted ? (
                   <div className="success-message">
                     <h3>Thank you for your message!</h3>
-                    <p>I'll get back to you as soon as possible.</p>
+                    <p>I&apos;ll get back to you as soon as possible.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit}>
